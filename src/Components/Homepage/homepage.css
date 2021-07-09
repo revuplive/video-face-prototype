@@ -1,0 +1,39 @@
+.homepageComp {
+  width: 640px;
+  height: 455px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.playIcon {
+  position: absolute;
+  top: 110px;
+  color: #f9a1a1;
+}
+.videoComp {
+  width: 572px;
+  height: 300px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9a1a1;
+  font-size: 50px;
+  background-color: #c4c4c4;
+  margin-bottom: 22px;
+}
+.btn {
+  width: 250px;
+  height: 40px;
+  background-color: #cffaa4;
+  border: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 14px;
+}

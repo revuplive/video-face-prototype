@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.previewComp {
+  width: 640px;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.previewComp h2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.previewComp .video {
+  width: 572px;
+  height: 300px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9a1a1;
+  font-size: 50px;
+  background-color: #c4c4c4;
+  margin-bottom: 22px;
+}
+.previewComp .playIcon {
+  position: absolute;
+  top: 160px;
+  color: #f9a1a1;
+}
+.previewComp .btns {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}

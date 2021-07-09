@@ -1,0 +1,42 @@
+.readyComp {
+  width: 640px;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.readyComp > h2 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Roboto;
+  margin-bottom: 22px;
+}
+.readyComp .readyVid {
+  width: 572px;
+  height: 300px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9a1a1;
+  font-size: 50px;
+  background-color: #c4c4c4;
+  margin-bottom: 22px;
+}
+.readyComp .playIcon {
+  position: absolute;
+  top: 150px;
+  color: #f9a1a1;
+}
+.readyComp .readyBtns {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.swapComp {
+  width: 640px;
+  height: 455px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.instruction {
+  width: 35%;
+  min-height: 630px;
+}
+
+.instruction h2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.instruction .instUl {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 17px;
+}
+.instUl li {
+  margin-left: 17px;
+  margin-top: 10px;
+}
+.instruction .example {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.example h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.example .exPic {
+  width: 80%;
+  height: 200px;
+  background-color: #c4c4c4;
+}
+.showPic {
+  width: 50%;
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showPic .takePic {
+  width: 80%;
+  height: 200px;
+  border: 8px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.takePic .circul {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #c4c4c4;
+}
+.showPic .cond {
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+.showPic input {
+  width: 10px;
+  height: 10px;
+  border: 0;
+}
